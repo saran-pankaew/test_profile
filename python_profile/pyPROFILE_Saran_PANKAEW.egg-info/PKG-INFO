@@ -2,14 +2,22 @@ Metadata-Version: 2.1
 Name: pyPROFILE-Saran-PANKAEW
 Version: 0.0.1
 Summary: pyPROFILE package
-Author-email: Saran  PANKAEW <author@example.com>
+Author-email: Saran  PANKAEW <saran.pankaew@curie.fr>
 Project-URL: Homepage, https://github.com/sysbio-curie/pyPROFILE
 Project-URL: Bug Tracker, https://github.com/sysbio-curie/pyPROFILE/issues
-Classifier: Programming Language :: Python :: 3
+Classifier: Programming  :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: diptest==0.5.2
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: datetime
+Requires-Dist: maboss==0.8.5
 
 # Python-version Personalization of patient-specific logical models (pyPROFILE)
 

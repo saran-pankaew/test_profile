@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: python-profile
+Version: 0.0.1
+Summary: pyPROFILE package
+Home-page: https://github.com/saran-pankaew/pyPROFILE
+Author: Saran PANKAEW
+Author-email: Saran PANKAEW <saran.pankaew@curie.fr>
+Project-URL: Homepage, https://github.com/sysbio-curie/pyPROFILE
+Project-URL: Bug Tracker, https://github.com/sysbio-curie/pyPROFILE/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: diptest==0.5.2
+Requires-Dist: tqdm
+Requires-Dist: datetime
+Requires-Dist: maboss==0.8.5
+
+# Python-version Personalization of patient-specific logical models (pyPROFILE)
+
+
+
+This is a repository of data, code and analyses of the python version of PROFILE (https://github.com/sysbio-curie/PROFILE).
+The original paper of PROFILE can be access here: https://www.frontiersin.org/articles/10.3389/fphys.2018.01965.
+
+A step-by step tutorial can be found in the folder tutorial. Please have a look at Tutorial **Tutorial_pyPROFILE.pdf**.
+Moreover, the comparison between the python version and the original version can be found in the folder `version_comparison`.
+
+## Getting Started
+### Requirements (for pyPROFILE)
+- Python version 3.8 or greater
+- Python's packages listed here:
+    - pandas
+    - numpy
+    - scipy, sklearn, diptest
+    - pymaboss
+
+To run version comparison or original version of PROFILE, please check the requirement here: https://github.com/sysbio-curie/PROFILE
+
+## What's new?
+### Translation to full python pipeline
+The python version of PROFILE is a faithful translation of the original version. The pyPROFILE translate the normalization and mutation processing, which were performed by `R` in the orginal version, and organize the part of data to model integration for better usability.
+### Compatilibity with scRNA-seq dataset
+In this version of PROFILE, we also integrate the compatibility with scRNA-seq data as an expression data to create a single-cell model. This method is also compatible with `scanpy` and can be integrated into `anndata` object using the package `muon`. See further in the tutorial vignette `tutorial_scRNAseq`. 
+
+## Authors
+The script is designed by Saran PANKAEW (saran dot pankaew @ curie dot fr). However, we would like to acknowledge Rémi TRIMBOUR for his contribution in the orignal design of the script, and Vincent NOËL for his advice on python script packaging.

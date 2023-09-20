@@ -3,25 +3,24 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pyPROFILE_Saran_PANKAEW"
+name = "python_profile"
 version = "0.0.1"
 authors = [
-  { name="Saran  PANKAEW", email="saran.pankaew@curie.fr" },
+  { name="Saran PANKAEW", email="saran.pankaew@curie.fr" },
 ]
 description = "pyPROFILE package"
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [
-    "Programming  :: Python :: 3",
+    "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 
 dependencies = [
-  "sklearn",
-  "scipy",
+  "scikit-learn",
   "diptest==0.5.2",
-  "pandas","tqdm","datetime",
+  "tqdm","datetime",
   "maboss==0.8.5",
 ]
 

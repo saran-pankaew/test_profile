@@ -1,0 +1,7 @@
+scikit-learn
+scipy
+diptest==0.5.2
+pandas
+tqdm
+datetime
+maboss==0.8.5

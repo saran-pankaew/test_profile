@@ -1,3 +1,4 @@
+LICENSE
 README.md
 pyproject.toml
 src/__init__.py
@@ -8,4 +9,5 @@ src/mutation_processing.py
 src/pyPROFILE_Saran_PANKAEW.egg-info/PKG-INFO
 src/pyPROFILE_Saran_PANKAEW.egg-info/SOURCES.txt
 src/pyPROFILE_Saran_PANKAEW.egg-info/dependency_links.txt
+src/pyPROFILE_Saran_PANKAEW.egg-info/requires.txt
 src/pyPROFILE_Saran_PANKAEW.egg-info/top_level.txt
